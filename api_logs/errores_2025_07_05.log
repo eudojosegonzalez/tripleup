@@ -1,0 +1,1912 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:09:1751717396
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:20:1751718045
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00043s] {'username_1': 'eudo@maranathavenezuela.com'}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'username_1': 'eudo@maranathavenezuela.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 7.864s ago] {'username_1': 'eudo@maranathavenezuela1.com'}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.codigo = %(codigo_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'codigo_1': '940C0E0C190 '}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:34:1751718844
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:34:1751718878
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:35:1751718930
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:35:1751718951
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:36:1751718980
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:36:1751718985
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:37:1751719069
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:37:1751719071
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:38:1751719086
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:38:1751719091
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:38:1751719098
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:38:1751719108
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:38:1751719131
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 08:39:1751719152
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00034s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.codigo = %(codigo_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00038s] {'codigo_1': '940C0E0C190 '}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:09:1751720964
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:09:1751720966
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00069s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$/PtkpKlYNqT6wZC9zZH9C.5Z9ib46.hTGuz/EaMIIQE7ePqf4rmi6', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'FB415E0B62F7', 'created': datetime.datetime(2025, 7, 5, 9, 9, 30, 309519), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00023s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00025s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=', 'created': datetime.datetime(2025, 7, 5, 9, 9, 30, 309519)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.00588s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00020s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2412 characters truncated) ... tagram.com/tripleupve) | [Tiktok](https://www.tiktok.com/@tripleupv) \n                    </body>\n                    </html>\n                    ", 'identificador': '60b2e037-cc0c-4b01-8e6e-b404ffcf1c0c', 'confirmado': 0, 'created': datetime.datetime(2025, 7, 5, 9, 9, 30, 309519), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721002
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721009
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721014
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721020
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721023
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721037
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 09:10:1751721038
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00046s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$1BJOh/uCaqpHDo3r7p4FyOYJI71Bn531NUU6GsdEv5L3tUzznDgFq', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'FB415E0B62F7', 'created': datetime.datetime(2025, 7, 5, 9, 10, 45, 43844), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00023s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=', 'created': datetime.datetime(2025, 7, 5, 9, 10, 45, 43844)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.006134s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2412 characters truncated) ... tagram.com/tripleupve) | [Tiktok](https://www.tiktok.com/@tripleupv) \n                    </body>\n                    </html>\n                    ", 'identificador': '633d940d-c14b-46fe-8997-1c1f9018459e', 'confirmado': 0, 'created': datetime.datetime(2025, 7, 5, 9, 10, 45, 43844), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.codigo = %(codigo_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00051s] {'codigo_1': 'F17388153194'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$9FvW36PHJE4A5e0VI1.X8.1I/YTd4PYvsVcWWXy5h/gE7d2ZWlnE.', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'FB415E0B62F7', 'created': datetime.datetime(2025, 7, 5, 9, 12, 57, 547285), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=F17388153194', 'created': datetime.datetime(2025, 7, 5, 9, 12, 57, 547285)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2412 characters truncated) ... tagram.com/tripleupve) | [Tiktok](https://www.tiktok.com/@tripleupv) \n                    </body>\n                    </html>\n                    ", 'identificador': 'ef58e9f2-f553-4be4-9061-8ec753788718', 'confirmado': 0, 'created': datetime.datetime(2025, 7, 5, 9, 12, 57, 547285), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.codigo = %(codigo_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 0.2755s ago] {'codigo_1': 'F17388153194'}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.codigo = %(codigo_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00022s] {'codigo_1': 'F17388153194', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 132.5s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT familia_afiliado.id AS familia_afiliado_id, familia_afiliado.user_id AS familia_afiliado_user_id, familia_afiliado.codigo_ascendente AS familia_afiliado_codigo_ascendente, familia_afiliado.familiar_id AS familia_afiliado_familiar_id, familia_afiliado.codigo_descendente AS familia_afiliado_codigo_descendente, familia_afiliado.tipo AS familia_afiliado_tipo, familia_afiliado.created AS familia_afiliado_created, familia_afiliado.updated AS familia_afiliado_updated 
+FROM familia_afiliado 
+WHERE familia_afiliado.user_id = %(user_id_1)s AND familia_afiliado.codigo_ascendente = %(codigo_ascendente_1)s AND familia_afiliado.familiar_id = %(familiar_id_1)s AND familia_afiliado.codigo_descendente = %(codigo_descendente_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'user_id_1': 1, 'codigo_ascendente_1': 'F17388153194', 'familiar_id_1': 2, 'codigo_descendente_1': 'FB415E0B62F7'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO familia_afiliado (user_id, codigo_ascendente, familiar_id, codigo_descendente, tipo, created, updated) VALUES (%(user_id)s, %(codigo_ascendente)s, %(familiar_id)s, %(codigo_descendente)s, %(tipo)s, %(created)s, %(updated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00035s] {'user_id': 1, 'codigo_ascendente': 'F17388153194', 'familiar_id': 2, 'codigo_descendente': 'FB415E0B62F7', 'tipo': 1, 'created': datetime.datetime(2025, 7, 5, 9, 12, 57, 547285), 'updated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT familia_afiliado.id AS familia_afiliado_id, familia_afiliado.user_id AS familia_afiliado_user_id, familia_afiliado.codigo_ascendente AS familia_afiliado_codigo_ascendente, familia_afiliado.familiar_id AS familia_afiliado_familiar_id, familia_afiliado.codigo_descendente AS familia_afiliado_codigo_descendente, familia_afiliado.tipo AS familia_afiliado_tipo, familia_afiliado.created AS familia_afiliado_created, familia_afiliado.updated AS familia_afiliado_updated 
+FROM familia_afiliado 
+WHERE familia_afiliado.codigo_descendente = %(codigo_descendente_1)s AND familia_afiliado.tipo = %(tipo_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00022s] {'codigo_descendente_1': 'F17388153194', 'tipo_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725381
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725391
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725395
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725397
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725409
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725411
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725425
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725434
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:23:1751725436
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725440
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725443
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725452
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725465
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725467
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725470
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725484
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725492
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:24:1751725494
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725508
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725511
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725515
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725529
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725532
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:25:1751725535
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:26:1751725562
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:26:1751725565
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:26:1751725575
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:26:1751725581
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:26:1751725613
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725623
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725628
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725644
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725647
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725652
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725660
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725663
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725671
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:27:1751725673
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725686
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725691
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725694
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725696
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725701
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725706
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725711
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725715
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725716
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725722
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725726
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725730
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725732
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725733
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:28:1751725739
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725741
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725762
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725772
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725783
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725788
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:29:1751725799
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725805
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725809
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725814
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725816
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725828
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725836
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725839
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:30:1751725847
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:31:1751725865
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:31:1751725915
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:31:1751725917
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-07-05 10:32:09
+ERROR:root:Error userController.share_code() takes 2 positional arguments but 3 were given
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:32:1751725944
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:32:1751725957
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:33:1751725994
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:33:1751725997
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:33:1751725999
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:33:1751726027
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:33:1751726033
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:34:1751726044
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-05 10:34:1751726057
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT

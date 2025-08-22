@@ -1,0 +1,430 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:25:1750879511
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE bitacora (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	user_id BIGINT NOT NULL, 
+	observaciones TEXT NOT NULL, 
+	created DATETIME NOT NULL, 
+	PRIMARY KEY (id), 
+	FOREIGN KEY(user_id) REFERENCES `Usuario` (id) ON DELETE RESTRICT ON UPDATE CASCADE
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00013s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.estado AS `Usuario_estado`, `Usuario`.confirmado AS `Usuario_confirmado`, `Usuario`.id_nivel AS `Usuario_id_nivel`, `Usuario`.codigo AS `Usuario_codigo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:Fecha 2025-06-25 15:26:14
+ERROR:root:Error (pymysql.err.OperationalError) (1054, "Unknown column 'Usuario.estado' in 'SELECT'")
+[SQL: SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.estado AS `Usuario_estado`, `Usuario`.confirmado AS `Usuario_confirmado`, `Usuario`.id_nivel AS `Usuario_id_nivel`, `Usuario`.codigo AS `Usuario_codigo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'xarcx2@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:26:1750879619
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`Usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.estado AS `Usuario_estado`, `Usuario`.confirmado AS `Usuario_confirmado`, `Usuario`.id_nivel AS `Usuario_id_nivel`, `Usuario`.codigo AS `Usuario_codigo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:Fecha 2025-06-25 15:27:03
+ERROR:root:Error (pymysql.err.OperationalError) (1054, "Unknown column 'Usuario.estado' in 'SELECT'")
+[SQL: SELECT `Usuario`.id AS `Usuario_id`, `Usuario`.username AS `Usuario_username`, `Usuario`.password AS `Usuario_password`, `Usuario`.estado AS `Usuario_estado`, `Usuario`.confirmado AS `Usuario_confirmado`, `Usuario`.id_nivel AS `Usuario_id_nivel`, `Usuario`.codigo AS `Usuario_codigo`, `Usuario`.created AS `Usuario_created`, `Usuario`.updated AS `Usuario_updated`, `Usuario`.creator_user AS `Usuario_creator_user`, `Usuario`.updater_user AS `Usuario_updater_user` 
+FROM `Usuario` 
+WHERE `Usuario`.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'xarcx2@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:27:1750879666
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE usuario (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(250) NOT NULL, 
+	password VARCHAR(250) NOT NULL, 
+	estado INTEGER NOT NULL, 
+	confirmado INTEGER NOT NULL, 
+	id_nivel INTEGER NOT NULL, 
+	codigo VARCHAR(150) NOT NULL, 
+	created DATETIME NOT NULL, 
+	updated DATETIME NOT NULL, 
+	creator_user BIGINT NOT NULL, 
+	updater_user BIGINT NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00014s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 175.3s ago] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:33:1750880021
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00036s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:34:1750880046
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `2callview`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 112.7s ago] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:36:1750880217
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`EstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`HistoricoEstadosUsuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`viewUsersEstados`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`MSG`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:37:1750880259
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:37:1750880264
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:37:1750880273
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:38:1750880290
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:39:1750880341
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:39:1750880349
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:59:1750881579
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 15:59:1750881598
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00034s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:Fecha 2025-06-25 16:00:16
+ERROR:root:Error (pymysql.err.OperationalError) (1054, "Unknown column 'usuario.creator_user' in 'SELECT'")
+[SQL: SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'xarcx2@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 16:01:1750881716
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+ERROR:root:Fecha 2025-06-25 16:02:03
+ERROR:root:Error (pymysql.err.OperationalError) (1054, "Unknown column 'usuario.creator_user' in 'SELECT'")
+[SQL: SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.creator_user AS usuario_creator_user, usuario.updater_user AS usuario_updater_user 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s]
+[parameters: {'username_1': 'xarcx2@gmail.com', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 16:03:1750881835
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+ERROR:root:Fecha 2025-06-25 16:04:00
+ERROR:root:Error Foreign key associated with column 'bitacora.user_id' could not find table 'Usuario' with which to generate a foreign key to target column 'id'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 16:04:1750881859
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00037s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'user_id': 1, 'observaciones': 'Login', 'created': datetime.datetime(2025, 6, 25, 16, 4, 25, 143137)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'pk_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 17:24:1750886651
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'user_id': 1, 'observaciones': 'Login', 'created': datetime.datetime(2025, 6, 25, 17, 24, 21, 913804)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'pk_1': 1}
+ERROR:root:Fecha 2025-06-25 17:24:22
+ERROR:root:Error Object of type timedelta is not JSON serializable
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-25 17:24:1750886690
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'user_id': 1, 'observaciones': 'Login', 'created': datetime.datetime(2025, 6, 25, 17, 24, 53, 4388)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00042s] {'pk_1': 1}

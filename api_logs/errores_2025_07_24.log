@@ -1,0 +1,1116 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 19:37:1753400229
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00034s] {'nombre_1': 'PRODUCTO ABC', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'nombre_1': 'PRODUCTO ABC', 'aseguradora_id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 18.5s ago] {'nombre_1': 'PRODUCTO ABC DOS', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO producto_poliza (nombre, aseguradora_id, tipo_poliza, `montoCobertura`, `periodoPago`, rating, costo, precio, cuotas, estado, descripcion, plazo_espera, imagen, created, updated, creator_user, updater_user) VALUES (%(nombre)s, %(aseguradora_id)s, %(tipo_poliza)s, %(montoCobertura)s, %(periodoPago)s, %(rating)s, %(costo)s, %(precio)s, %(cuotas)s, %(estado)s, %(descripcion)s, %(plazo_espera)s, %(imagen)s, %(created)s, %(updated)s, %(creator_user)s, %(updater_user)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00055s] {'nombre': 'PRODUCTO ABC DOS', 'aseguradora_id': 1, 'tipo_poliza': 'Seguro de Salud', 'montoCobertura': 20000.0, 'periodoPago': 'Mensual', 'rating': 5, 'costo': 250.0, 'precio': 25.0, 'cuotas': 35.0, 'estado': 2, 'descripcion': 'Esto es un producto de prueba dos', 'plazo_espera': 'Esto son plazos de espera de prueba', 'imagen': '', 'created': datetime.datetime(2025, 7, 24, 19, 39, 14, 777045), 'updated': datetime.datetime(2025, 7, 24, 19, 39, 14, 777045), 'creator_user': 1, 'updater_user': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'pk_1': 4}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:17:1753402644
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:18:1753402695
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:18:1753402699
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:18:1753402702
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:18:1753402704
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:19:1753402760
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:19:1753402764
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:19:1753402797
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402806
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402813
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402820
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402824
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402832
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402836
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402841
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402843
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402847
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402849
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402851
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:20:1753402853
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402861
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402865
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402867
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402869
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402872
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402878
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402880
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402885
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402887
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402891
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402898
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402901
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402904
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402910
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:21:1753402915
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402921
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402925
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402936
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402943
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402944
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402951
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402952
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402954
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402959
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402960
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:22:1753402974
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753402989
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753402990
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753402993
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753402999
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753403001
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753403003
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753403009
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:23:1753403021
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403051
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403052
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403059
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403068
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403073
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:24:1753403081
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403106
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403108
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403112
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403114
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403132
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403144
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403147
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:25:1753403148
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403163
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403170
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403174
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403176
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403179
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403180
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403182
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403183
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403185
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403189
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403192
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403196
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403203
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403208
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:26:1753403212
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:27:1753403227
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:27:1753403230
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:27:1753403233
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:27:1753403240
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:27:1753403267
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403280
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403290
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403292
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403296
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403298
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403314
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403325
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403327
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403328
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:28:1753403331
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403407
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403423
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403427
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403430
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403440
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403446
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403453
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:30:1753403459
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403462
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403467
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403470
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403472
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403473
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403488
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403492
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403499
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403502
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403504
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403506
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403509
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403511
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403513
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403515
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403516
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:31:1753403518
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403520
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403522
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403526
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403534
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403541
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403545
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403547
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403553
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403556
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403558
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403572
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403575
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:32:1753403578
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:33:1753403612
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:33:1753403615
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:33:1753403616
+ERROR:root:================================================================================
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:33:1753403624
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:34:1753403691
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-07-24 20:35:23
+ERROR:root:Error 'dashboardAdminController' object has no attribute 'update_products_policy'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:35:1753403742
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00045s] {'nombre_1': 'PRODUCTO ABC', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 16.09s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 16.09s ago] {'nombre_1': 'PRODUCTO ABC 5', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, tipo_poliza=%(tipo_poliza)s, costo=%(costo)s, precio=%(precio)s, cuotas=%(cuotas)s, estado=%(estado)s, descripcion=%(descripcion)s, plazo_espera=%(plazo_espera)s, imagen=%(imagen)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'nombre': 'PRODUCTO ABC 5', 'tipo_poliza': 'Seguro de Salud', 'costo': 250.0, 'precio': 25.0, 'cuotas': 35.0, 'estado': 2, 'descripcion': 'Esto es un producto de prueba', 'plazo_espera': 'Esto son plazos de espera de prueba 5', 'imagen': '', 'updated': datetime.datetime(2025, 7, 24, 20, 36, 12, 880563), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'pk_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:36:1753403786
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:37:1753403842
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00045s] {'nombre_1': 'PRODUCTO ABC 5', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 16.02s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 16.02s ago] {'nombre_1': 'PRODUCTO ABC 6', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, plazo_espera=%(plazo_espera)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'nombre': 'PRODUCTO ABC 6', 'plazo_espera': 'Esto son plazos de espera de prueba', 'updated': datetime.datetime(2025, 7, 24, 20, 41, 31, 129745), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'pk_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:41:1753404107
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:41:1753404118
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'nombre_1': 'PRODUCTO ABC 7', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00016s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'nombre': 'PRODUCTO ABC 7', 'updated': datetime.datetime(2025, 7, 24, 20, 42, 8, 527076), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'pk_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 5.244s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 5.241s ago] {'nombre_1': 'PRODUCTO ABC 7', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 15.19s ago] {'id_1': 100}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 46.19s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 46.19s ago] {'nombre_1': 'PRODUCTO ABC', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 64.64s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 64.64s ago] {'nombre_1': 'PRODUCTO ABC DOS', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 90.6s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 90.59s ago] {'nombre_1': 'PRODUCTO ABC TRES', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 90.59s ago] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[cached since 90.59s ago] {'nombre': 'PRODUCTO ABC TRES', 'updated': datetime.datetime(2025, 7, 24, 20, 43, 39, 138211), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 90.56s ago] {'pk_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 111.3s ago] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 111.3s ago] {'nombre_1': 'PRODUCTO ABC 3', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 111.3s ago] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[cached since 111.3s ago] {'nombre': 'PRODUCTO ABC 3', 'updated': datetime.datetime(2025, 7, 24, 20, 43, 59, 827396), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 111.3s ago] {'pk_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-07-24 20:44:1753404262
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username_1': 'xarcx2@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00038s] {'user_id': 1, 'observaciones': 'Login', 'created': datetime.datetime(2025, 7, 24, 20, 49, 59, 530701)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00021s] {'pk_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00034s] {'id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.nombre = %(nombre_1)s AND producto_poliza.aseguradora_id = %(aseguradora_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00041s] {'nombre_1': 'PRODUCTO ABC 4', 'aseguradora_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE producto_poliza SET nombre=%(nombre)s, updated=%(updated)s WHERE producto_poliza.id = %(producto_poliza_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'nombre': 'PRODUCTO ABC 4', 'updated': datetime.datetime(2025, 7, 24, 20, 50, 24, 380821), 'producto_poliza_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT producto_poliza.id AS producto_poliza_id, producto_poliza.nombre AS producto_poliza_nombre, producto_poliza.aseguradora_id AS producto_poliza_aseguradora_id, producto_poliza.tipo_poliza AS producto_poliza_tipo_poliza, producto_poliza.`montoCobertura` AS `producto_poliza_montoCobertura`, producto_poliza.`periodoPago` AS `producto_poliza_periodoPago`, producto_poliza.rating AS producto_poliza_rating, producto_poliza.costo AS producto_poliza_costo, producto_poliza.precio AS producto_poliza_precio, producto_poliza.cuotas AS producto_poliza_cuotas, producto_poliza.estado AS producto_poliza_estado, producto_poliza.descripcion AS producto_poliza_descripcion, producto_poliza.plazo_espera AS producto_poliza_plazo_espera, producto_poliza.imagen AS producto_poliza_imagen, producto_poliza.created AS producto_poliza_created, producto_poliza.updated AS producto_poliza_updated, producto_poliza.creator_user AS producto_poliza_creator_user, producto_poliza.updater_user AS producto_poliza_updater_user 
+FROM producto_poliza 
+WHERE producto_poliza.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00021s] {'pk_1': 1}
+ERROR:root:Fecha 2025-07-25 10:31:04
+ERROR:root:Error dashboardAdminController.list_products_policy() missing 1 required positional argument: 'id'
+ERROR:sqlalchemy.pool.impl.QueuePool:Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 806, in _write_bytes
+    self._sock.sendall(data)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 987, in _finalize_fairy
+    fairy._reset(
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 1433, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/engine/default.py", line 703, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 492, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 864, in _execute_command
+    self._write_bytes(packet)
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 809, in _write_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionResetError(104, 'Connection reset by peer'))")
+ERROR:sqlalchemy.pool.impl.QueuePool:Exception during reset or similar
+Traceback (most recent call last):
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 806, in _write_bytes
+    self._sock.sendall(data)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 987, in _finalize_fairy
+    fairy._reset(
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/pool/base.py", line 1433, in _reset
+    pool._dialect.do_rollback(self)
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/sqlalchemy/engine/default.py", line 703, in do_rollback
+    dbapi_connection.rollback()
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 492, in rollback
+    self._execute_command(COMMAND.COM_QUERY, "ROLLBACK")
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 864, in _execute_command
+    self._write_bytes(packet)
+  File "/home/egonzalez/project/tripleup/venv/lib64/python3.12/site-packages/pymysql/connections.py", line 809, in _write_bytes
+    raise err.OperationalError(
+pymysql.err.OperationalError: (2006, "MySQL server has gone away (ConnectionResetError(104, 'Connection reset by peer'))")

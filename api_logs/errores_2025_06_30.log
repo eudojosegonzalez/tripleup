@@ -1,0 +1,1189 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 07:18:1751282310
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:26:1751286415
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:27:1751286457
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:31:1751286663
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:31:1751286675
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:33:1751286794
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:52:1751287927
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE confirmation_user (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(250) NOT NULL, 
+	`body` TEXT NOT NULL, 
+	identificador VARCHAR(150) NOT NULL, 
+	confirmado INTEGER NOT NULL, 
+	created DATETIME NOT NULL, 
+	confirmated DATETIME NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00023s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:52:1751287946
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 08:52:1751287975
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:07:1751288854
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:09:1751288998
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:11:1751289090
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 09:11:59
+ERROR:root:Error 'dict' object has no attribute 'username'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:18:1751289500
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:18:1751289502
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:18:1751289537
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:19:1751289579
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username_1': 'eudojosegonzalez@gmail.com'}
+ERROR:root:Fecha 2025-06-30 09:24:44
+ERROR:root:Error 'creator_user' is an invalid keyword argument for Usuario
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:28:1751290120
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username_1': 'eudojosegonzalez@gmail.com'}
+ERROR:root:Fecha 2025-06-30 09:29:18
+ERROR:root:Error 'User' object has no attribute 'id'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:29:1751290198
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00035s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00038s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$vH3zX7WleHHhr4Wo8YXWy.blGDoVizY0ndLCRnv3fH/2u5KqfyPg.', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 30, 1, 199822), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00040s] {'pk_1': 2}
+ERROR:root:Fecha 2025-06-30 09:30:01
+ERROR:root:Error module 'datetime' has no attribute 'now'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:30:1751290258
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00053s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username_1': 'eudojosegonzalez@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 68.45s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$9lnHpsfkUj84K/L9n526b.k8HoT1zP7Oa8eVT1.nCJuccDpwsEbbq', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 32, 17, 50161), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'pk_1': 3}
+ERROR:root:Fecha 2025-06-30 09:32:17
+ERROR:root:Error module 'datetime' has no attribute 'now'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:33:1751290431
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$t00MahPzeQGMHerNLw5y/.j4hfO.UPqMBLgTvmPWq/dacqXXAkk5q', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 33, 56, 979024), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00019s] {'pk_1': 4}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00020s] {'user_id': 4, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:4, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 33, 56, 979024)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.006128s ago] {'pk_1': 4}
+ERROR:root:Fecha 2025-06-30 09:33:57
+ERROR:root:Error name 'now' is not defined
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:34:1751290497
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$OgVv0ITtJ.J3MObL/LhCNegK5y1dGe.2EV7vliuW.Pd72R2W2kkAO', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 35, 33, 423381), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00020s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 35, 33, 423381)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.006701s ago] {'pk_1': 2}
+ERROR:root:Fecha 2025-06-30 09:35:33
+ERROR:root:Error cannot access local variable 'client_ip' where it is not associated with a value
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 177s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00025s] {'username_1': 'eudojosegonzalez@gmail.com', 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 352.1s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 154s ago] {'username_1': 'eudojosegonzalez@gmail.com', 'param_1': 1}
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:43:1751291019
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE confirmation_user (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(250) NOT NULL, 
+	`body` TEXT NOT NULL, 
+	identificador VARCHAR(150) NOT NULL, 
+	confirmado INTEGER NOT NULL, 
+	created DATETIME NOT NULL, 
+	confirmated DATETIME NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00022s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00041s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$RMY3mq7PlIpDLuy3Ie.XXeMwD52zsuNIzjL3hhAfbwxktjH1fKzJm', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 43, 55, 433881), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00027s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 43, 55, 433881)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.007853s ago] {'pk_1': 2}
+ERROR:root:Fecha 2025-06-30 09:43:55
+ERROR:root:Error cannot access local variable 'client_ip' where it is not associated with a value
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:45:1751291155
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00037s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$Qv2kBfS3b8tTtv5hfvvQp.iRS8Xa0BYeT5bNa7LxTuyqxhpUIFh9G', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 46, 44, 931961), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00021s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00018s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 46, 44, 931961)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.005568s ago] {'pk_1': 2}
+ERROR:root:Fecha 2025-06-30 09:46:45
+ERROR:root:Error cannot access local variable 'client_ip' where it is not associated with a value
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 09:48:1751291302
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:
+CREATE TABLE confirmation_user (
+	id BIGINT NOT NULL AUTO_INCREMENT, 
+	username VARCHAR(250) NOT NULL, 
+	`body` TEXT NOT NULL, 
+	identificador VARCHAR(150) NOT NULL, 
+	confirmado INTEGER NOT NULL, 
+	created DATETIME NOT NULL, 
+	confirmated DATETIME NOT NULL, 
+	PRIMARY KEY (id)
+)
+
+
+INFO:sqlalchemy.engine.Engine:[no key 0.00022s] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00041s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$JUEUjy8RCXwIk0Ng2npmsus5SApiZIpwBUIRbHI37gWZ28QpQ/DQ6', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 48, 30, 514789), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00036s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00043s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 48, 30, 514789)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.008615s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00025s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '517b1835-bebb-404e-94a7-308f1dc7b714', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 9, 48, 30, 514789), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+ERROR:root:Fecha 2025-06-30 09:48:30
+ERROR:root:Error (pymysql.err.ProgrammingError) (1146, "Table 'tripleup.confirmation_user' doesn't exist")
+[SQL: INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)]
+[parameters: {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '517b1835-bebb-404e-94a7-308f1dc7b714', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 9, 48, 30, 514789), 'confirmated': '1990-01-01'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$ZK/Sdjbj4/8V5NvtZrRP5efErM68CYjyGJOL41l4XamFxKUGusfAS', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 50, 42, 158210), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 9, 50, 42, 158210)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 131.6s ago] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2406 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '805ec9b3-a234-407d-a700-a79a4358686e', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 9, 50, 42, 158210), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+ERROR:root:Fecha 2025-06-30 09:50:42
+ERROR:root:Error (pymysql.err.ProgrammingError) (1146, "Table 'tripleup.confirmation_user' doesn't exist")
+[SQL: INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)]
+[parameters: {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2406 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '805ec9b3-a234-407d-a700-a79a4358686e', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 9, 50, 42, 158210), 'confirmated': '1990-01-01'}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:00:1751292009
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00039s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$Izi0YZKjvJe3NQWAjDtrfu48kgIBs0WtuC9qKj1tzmpU2gdShbAz6', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 0, 15, 666954), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00022s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00023s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 0, 15, 666954)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.007473s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '31d3b767-8a38-4bca-b338-821c8b708151', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 10, 0, 15, 666954), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$1vRBbQ0.3B7dBEU862XfsOotpiPEXCfx30qziNAoiJ1S7DzrAjwuu', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 3, 37, 250986), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 3, 37, 250986)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 201.6s ago] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '30b3d0c1-4947-45f8-a1da-9b3d578b0dec', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 10, 3, 37, 250986), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 10:05:29
+ERROR:root:Error Connection unexpectedly closed
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:10:1751292610
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00040s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$DZ1EqlwliFyTv0N6kk739uEMk6vHnJ1gKm7DtVIFuiOYE9TU7mygC', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 10, 21, 379485), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00038s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 10, 21, 379485)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.0107s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00041s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '05beed6a-f402-4a47-996d-c6375717bf2f', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 10, 10, 21, 379485), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 10:10:36
+ERROR:root:Error 'str' object has no attribute 'policy'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:12:1751292754
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00034s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$nyRaf8ktxfRLHFgcrf/BJuixrLdEX4ILXvfgToioNPFNXoC9k6VGu', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 12, 41, 225858), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00018s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 10, 12, 41, 225858)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.005449s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00035s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': 'b568de80-26a2-4f67-a1e9-78444c1d3fdf', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 10, 12, 41, 225858), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 10:12:57
+ERROR:root:Error 'str' object has no attribute 'policy'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:18:1751293099
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:31:1751293902
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:37:1751294260
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:38:1751294305
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 10:44:1751294642
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 12:41:1751301702
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00043s] {'username_1': 'eudojosegonzalez@hotmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00033s] {'username': 'eudojosegonzalez@hotmail.com', 'password': '$2b$12$XrlWIqh7BMJaDWdXZp9pxOeMZ5nkCf22vBswkCjg9tY9JMKAEH1jS', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 42, 7, 445628), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:ROLLBACK
+ERROR:root:Fecha 2025-06-30 12:42:07
+ERROR:root:Error (pymysql.err.IntegrityError) (1062, "Duplicate entry 'ABCDEFGHI' for key 'codigo'")
+[SQL: INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)]
+[parameters: {'username': 'eudojosegonzalez@hotmail.com', 'password': '$2b$12$XrlWIqh7BMJaDWdXZp9pxOeMZ5nkCf22vBswkCjg9tY9JMKAEH1jS', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 42, 7, 445628), 'updated': None, 'confirmated': None}]
+(Background on this error at: https://sqlalche.me/e/20/gkpj)
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 20.14s ago] {'username_1': 'eudojosegonzalez@hotmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 20.1s ago] {'username': 'eudojosegonzalez@hotmail.com', 'password': '$2b$12$RqqcFrOH1YKsW0FMW799JOxjF/fP.g/N2ArxOELOB8yIdD99HeiYK', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 42, 27, 591062), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00039s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00037s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@hotmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 42, 27, 591062)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.008098s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00025s] {'username': 'eudojosegonzalez@hotmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2414 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '7c7e6497-aa89-47a8-986a-29bef7f2d47c', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 12, 42, 27, 591062), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 12:42:38
+ERROR:root:Error 'data'
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 12:46:1751302007
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00059s] {'username_1': 'eudojosegonzalez@hotmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username': 'eudojosegonzalez@hotmail.com', 'password': '$2b$12$KgJ5k9yl3C85rkIcOz87DODiSOskgFqOSFNhRUeHTWIe6X1S5FdUO', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 47, 16, 588361), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00030s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@hotmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 47, 16, 588361)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.008675s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'username': 'eudojosegonzalez@hotmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2414 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': 'b02c4c5a-7add-45db-b613-b2b97539b6c6', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 12, 47, 16, 588361), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$JDoq9FJV4/z3q6xVENNl7ucbwrf8FrppDsbs4Yz86JmITyjhyQPz2', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 58, 54, 998991), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 12, 58, 54, 998991)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 698.4s ago] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '0fd47e86-3cc2-43af-be8a-ff36d32cbdf6', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 12, 58, 54, 998991), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$wccnhhD6xpc/zoRdZRLYpu83GC9J7RywEjdF3pmKBoLS2YeorFTZO', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 13, 6, 1, 671704), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 13, 6, 1, 671704)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[cached since 1125s ago] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '0ebc92c4-05c5-44cc-8353-2b8ef4770bf4', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 13, 6, 1, 671704), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 13:06:1751303216
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.username = %(username_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00053s] {'username_1': 'eudojosegonzalez@gmail.com'}
+INFO:sqlalchemy.engine.Engine:INSERT INTO usuario (username, password, estado, confirmado, id_nivel, codigo, created, updated, confirmated) VALUES (%(username)s, %(password)s, %(estado)s, %(confirmado)s, %(id_nivel)s, %(codigo)s, %(created)s, %(updated)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username': 'eudojosegonzalez@gmail.com', 'password': '$2b$12$n8KSCuW3yQX157nOjkXP9uctE8Y37/rOG0l1acMzvuccOMtSMlSaG', 'estado': 1, 'confirmado': 0, 'id_nivel': 1, 'codigo': 'FB415E0B62F7', 'created': datetime.datetime(2025, 6, 30, 13, 7, 16, 127856), 'updated': None, 'confirmated': None}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00023s] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO bitacora (user_id, observaciones, created) VALUES (%(user_id)s, %(observaciones)s, %(created)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00025s] {'user_id': 2, 'observaciones': 'Creacion de usuario nuevo en el sistema Nuevo Id de usuario:2, Nombre del nuevo usuario: eudojosegonzalez@gmail.com codigo asignado=ABCDEFGHI', 'created': datetime.datetime(2025, 6, 30, 13, 7, 16, 127856)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT usuario.id AS usuario_id, usuario.username AS usuario_username, usuario.password AS usuario_password, usuario.estado AS usuario_estado, usuario.confirmado AS usuario_confirmado, usuario.id_nivel AS usuario_id_nivel, usuario.codigo AS usuario_codigo, usuario.created AS usuario_created, usuario.updated AS usuario_updated, usuario.confirmated AS usuario_confirmated 
+FROM usuario 
+WHERE usuario.id = %(pk_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 0.007423s ago] {'pk_1': 2}
+INFO:sqlalchemy.engine.Engine:INSERT INTO confirmation_user (username, `body`, identificador, confirmado, created, confirmated) VALUES (%(username)s, %(body)s, %(identificador)s, %(confirmado)s, %(created)s, %(confirmated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00029s] {'username': 'eudojosegonzalez@gmail.com', 'body': "\n                    <html>\n                    <head>\n                    </head>\n                    <body>\n                    <p>¡Hola ! </p ... (2408 characters truncated) ... /instagram.com/tripleup) | [Facebook](https://facebook.com/tripleup) \n                    </body>\n                    </html>\n                    ", 'identificador': '8104b618-ccf0-4c33-98a6-e14568896cf1', 'confirmado': 0, 'created': datetime.datetime(2025, 6, 30, 13, 7, 16, 127856), 'confirmated': '1990-01-01'}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 13:29:1751304552
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 20:40:1751330439
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 20:40:50
+ERROR:root:Error 'coroutine' object is not subscriptable
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 20:41:1751330510
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-06-30 20:44:1751330672
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:Fecha 2025-06-30 20:44:39
+ERROR:root:Error 'coroutine' object is not subscriptable

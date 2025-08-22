@@ -1,0 +1,278 @@
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:41:1755135673
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:42:1755135720
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:43:1755135796
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:43:1755135829
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_personales.id AS datos_personales_id, datos_personales.user_id AS datos_personales_user_id, datos_personales.nac AS datos_personales_nac, datos_personales.numero AS datos_personales_numero, datos_personales.identidad AS datos_personales_identidad, datos_personales.apellido AS datos_personales_apellido, datos_personales.nombre AS datos_personales_nombre, datos_personales.fecha_nac AS datos_personales_fecha_nac, datos_personales.sexo AS datos_personales_sexo, datos_personales.created AS datos_personales_created, datos_personales.updated AS datos_personales_updated 
+FROM datos_personales 
+WHERE datos_personales.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00032s] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO datos_personales (user_id, nac, numero, identidad, apellido, nombre, fecha_nac, sexo, created, updated) VALUES (%(user_id)s, %(nac)s, %(numero)s, %(identidad)s, %(apellido)s, %(nombre)s, %(fecha_nac)s, %(sexo)s, %(created)s, %(updated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00031s] {'user_id': 1, 'nac': 'V', 'numero': '9999999', 'identidad': 'N', 'apellido': 'PEREZ', 'nombre': 'PEDRO', 'fecha_nac': datetime.date(1999, 1, 1), 'sexo': 1, 'created': datetime.datetime(2025, 8, 13, 21, 43, 52, 109485), 'updated': datetime.datetime(2025, 8, 13, 21, 43, 52, 109485)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_ubicacion.id AS datos_ubicacion_id, datos_ubicacion.user_id AS datos_ubicacion_user_id, datos_ubicacion.direccion1 AS datos_ubicacion_direccion1, datos_ubicacion.direccion2 AS datos_ubicacion_direccion2, datos_ubicacion.estado_id AS datos_ubicacion_estado_id, datos_ubicacion.municipio_id AS datos_ubicacion_municipio_id, datos_ubicacion.created AS datos_ubicacion_created, datos_ubicacion.updated AS datos_ubicacion_updated 
+FROM datos_ubicacion 
+WHERE datos_ubicacion.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00046s] {'user_id_1': 1}
+ERROR:root:Fecha 2025-08-13 21:43:52
+ERROR:root:Error cannot access local variable 'RecordDatosUbicacion' where it is not associated with a value
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:44:1755135871
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_personales.id AS datos_personales_id, datos_personales.user_id AS datos_personales_user_id, datos_personales.nac AS datos_personales_nac, datos_personales.numero AS datos_personales_numero, datos_personales.identidad AS datos_personales_identidad, datos_personales.apellido AS datos_personales_apellido, datos_personales.nombre AS datos_personales_nombre, datos_personales.fecha_nac AS datos_personales_fecha_nac, datos_personales.sexo AS datos_personales_sexo, datos_personales.created AS datos_personales_created, datos_personales.updated AS datos_personales_updated 
+FROM datos_personales 
+WHERE datos_personales.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00028s] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT datos_personales.id AS datos_personales_id, datos_personales.user_id AS datos_personales_user_id, datos_personales.nac AS datos_personales_nac, datos_personales.numero AS datos_personales_numero, datos_personales.identidad AS datos_personales_identidad, datos_personales.apellido AS datos_personales_apellido, datos_personales.nombre AS datos_personales_nombre, datos_personales.fecha_nac AS datos_personales_fecha_nac, datos_personales.sexo AS datos_personales_sexo, datos_personales.created AS datos_personales_created, datos_personales.updated AS datos_personales_updated 
+FROM datos_personales 
+WHERE datos_personales.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00018s] {'user_id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE datos_personales SET nac=%(nac)s, identidad=%(identidad)s, updated=%(updated)s WHERE datos_personales.id = %(datos_personales_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00017s] {'nac': ('V',), 'identidad': ('N',), 'updated': datetime.datetime(2025, 8, 13, 21, 44, 35, 430987), 'datos_personales_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_ubicacion.id AS datos_ubicacion_id, datos_ubicacion.user_id AS datos_ubicacion_user_id, datos_ubicacion.direccion1 AS datos_ubicacion_direccion1, datos_ubicacion.direccion2 AS datos_ubicacion_direccion2, datos_ubicacion.estado_id AS datos_ubicacion_estado_id, datos_ubicacion.municipio_id AS datos_ubicacion_municipio_id, datos_ubicacion.created AS datos_ubicacion_created, datos_ubicacion.updated AS datos_ubicacion_updated 
+FROM datos_ubicacion 
+WHERE datos_ubicacion.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[generated in 0.00019s] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:INSERT INTO datos_ubicacion (user_id, direccion1, direccion2, estado_id, municipio_id, created, updated) VALUES (%(user_id)s, %(direccion1)s, %(direccion2)s, %(estado_id)s, %(municipio_id)s, %(created)s, %(updated)s)
+INFO:sqlalchemy.engine.Engine:[generated in 0.00022s] {'user_id': 1, 'direccion1': 'Direccion de Prueba', 'direccion2': None, 'estado_id': 1, 'municipio_id': 1, 'created': datetime.datetime(2025, 8, 13, 21, 44, 35, 430987), 'updated': datetime.datetime(2025, 8, 13, 21, 44, 35, 430987)}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_personales.id AS datos_personales_id, datos_personales.user_id AS datos_personales_user_id, datos_personales.nac AS datos_personales_nac, datos_personales.numero AS datos_personales_numero, datos_personales.identidad AS datos_personales_identidad, datos_personales.apellido AS datos_personales_apellido, datos_personales.nombre AS datos_personales_nombre, datos_personales.fecha_nac AS datos_personales_fecha_nac, datos_personales.sexo AS datos_personales_sexo, datos_personales.created AS datos_personales_created, datos_personales.updated AS datos_personales_updated 
+FROM datos_personales 
+WHERE datos_personales.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 40.98s ago] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT datos_personales.id AS datos_personales_id, datos_personales.user_id AS datos_personales_user_id, datos_personales.nac AS datos_personales_nac, datos_personales.numero AS datos_personales_numero, datos_personales.identidad AS datos_personales_identidad, datos_personales.apellido AS datos_personales_apellido, datos_personales.nombre AS datos_personales_nombre, datos_personales.fecha_nac AS datos_personales_fecha_nac, datos_personales.sexo AS datos_personales_sexo, datos_personales.created AS datos_personales_created, datos_personales.updated AS datos_personales_updated 
+FROM datos_personales 
+WHERE datos_personales.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[cached since 40.98s ago] {'user_id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE datos_personales SET nac=%(nac)s, identidad=%(identidad)s, apellido=%(apellido)s, nombre=%(nombre)s, updated=%(updated)s WHERE datos_personales.id = %(datos_personales_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00026s] {'nac': ('V',), 'identidad': ('N',), 'apellido': 'COVA', 'nombre': 'ALEXIS', 'updated': datetime.datetime(2025, 8, 13, 21, 45, 16, 429425), 'datos_personales_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:SELECT count(*) AS count_1 
+FROM (SELECT datos_ubicacion.id AS datos_ubicacion_id, datos_ubicacion.user_id AS datos_ubicacion_user_id, datos_ubicacion.direccion1 AS datos_ubicacion_direccion1, datos_ubicacion.direccion2 AS datos_ubicacion_direccion2, datos_ubicacion.estado_id AS datos_ubicacion_estado_id, datos_ubicacion.municipio_id AS datos_ubicacion_municipio_id, datos_ubicacion.created AS datos_ubicacion_created, datos_ubicacion.updated AS datos_ubicacion_updated 
+FROM datos_ubicacion 
+WHERE datos_ubicacion.user_id = %(user_id_1)s) AS anon_1
+INFO:sqlalchemy.engine.Engine:[cached since 40.96s ago] {'user_id_1': 1}
+INFO:sqlalchemy.engine.Engine:SELECT datos_ubicacion.id AS datos_ubicacion_id, datos_ubicacion.user_id AS datos_ubicacion_user_id, datos_ubicacion.direccion1 AS datos_ubicacion_direccion1, datos_ubicacion.direccion2 AS datos_ubicacion_direccion2, datos_ubicacion.estado_id AS datos_ubicacion_estado_id, datos_ubicacion.municipio_id AS datos_ubicacion_municipio_id, datos_ubicacion.created AS datos_ubicacion_created, datos_ubicacion.updated AS datos_ubicacion_updated 
+FROM datos_ubicacion 
+WHERE datos_ubicacion.user_id = %(user_id_1)s 
+ LIMIT %(param_1)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00170s] {'user_id_1': 1, 'param_1': 1}
+INFO:sqlalchemy.engine.Engine:UPDATE datos_ubicacion SET estado_id=%(estado_id)s, updated=%(updated)s WHERE datos_ubicacion.id = %(datos_ubicacion_id)s
+INFO:sqlalchemy.engine.Engine:[generated in 0.00051s] {'estado_id': (1,), 'updated': datetime.datetime(2025, 8, 13, 21, 45, 16, 429425), 'datos_ubicacion_id': 1}
+INFO:sqlalchemy.engine.Engine:COMMIT
+ERROR:root:================================================================================
+ERROR:root:Sistema de registro de errores del sistema 2025-08-13 21:51:1755136262
+ERROR:root:================================================================================
+INFO:sqlalchemy.engine.Engine:SELECT DATABASE()
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@sql_mode
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:SELECT @@lower_case_table_names
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:BEGIN (implicit)
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`confirmation_user`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`familia_afiliado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_personales`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`estado`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`municipio`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`vista_ubicacion_usuario`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_ubicacion`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`bitacora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`datos_contacto`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`aseguradora`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:DESCRIBE `tripleup`.`producto_poliza`
+INFO:sqlalchemy.engine.Engine:[raw sql] {}
+INFO:sqlalchemy.engine.Engine:COMMIT
